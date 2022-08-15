@@ -31,6 +31,7 @@ public class OrderCommandController {
                 .addressId(orderRestModel.getAddressId())
                 .productId(orderRestModel.getProductId())
                 .quantity(orderRestModel.getQuantity())
+                .userId(orderRestModel.getUserId())
                 .orderStatus("CREATED")
                 .build();
 
